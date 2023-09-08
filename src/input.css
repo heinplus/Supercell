@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        @apply box-border p-0 m-0
+    }
+    .max-w-custom {
+        @apply w-[1200px]
+    }
+    .list {
+        @apply h-[66px] flex justify-center items-center
+    }
+    .bg-img {
+        @apply w-full h-full object-cover
+    }
+    .mini-img {
+        @apply absolute top-[20%] left-[50%] translate-x-[-50%] object-contain w-[20%]
+    }
+    .youtube {
+        @apply absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[100px]
+    }
+}
